@@ -1,0 +1,13 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
