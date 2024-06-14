@@ -1,0 +1,164 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+}
+
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 24px;
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.hero-section {
+    position: relative;
+    color: white;
+}
+
+.hero-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.hero-text h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero-text p {
+    margin: 10px 0;
+}
+
+.hero-button {
+    text-decoration: none;
+    color: white;
+    background-color: #0078d4;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero-button:hover {
+    background-color: #005a9e;
+}
+
+.product-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.product {
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h2 {
+    margin: 20px 0 10px;
+    font-size: 24px;
+}
+
+.product p {
+    margin: 0 0 20px;
+    color: #666;
+}
+
+.product a {
+    text-decoration: none;
+    color: #0078d4;
+}
+
+.product a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #ffffff;
+    padding: 20px;
+    border-top: 1px solid #e1e1e1;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin: 0;
+    color: #666;
+}
